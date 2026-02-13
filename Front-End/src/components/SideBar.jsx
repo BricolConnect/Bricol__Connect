@@ -29,11 +29,7 @@ const SideBar = ({ isCollapsed, setIsCollapsed }) => {
     };
 
     return (
-        <div 
-            className="offcanvas-lg offcanvas-start bg-white border-end position-fixed shadow-sm d-flex flex-column" 
-            id="sidebarMenu" 
-            data-bs-backdrop="false" 
-            style={{  width: isCollapsed ? '80px' : '280px',  zIndex: 1040,  transition: 'width 0.3s ease-in-out', left: 0,  top: '72px',  height: 'calc(100vh - 72px)' }} >
+        <div className="offcanvas-lg offcanvas-start bg-white border-end position-fixed shadow-sm d-flex flex-column" id="sidebarMenu" data-bs-backdrop="false"  style={{  width: isCollapsed ? '80px' : '280px',  zIndex: 1040,  transition: 'width 0.3s ease-in-out', left: 0,  top: '72px',  height: 'calc(100vh - 72px)' }} >
             <div className="offcanvas-header d-lg-none border-bottom">
                 <h5 className="fw-bold mb-0 text-primary">Bricol'Connect</h5>
                 <button type="button" className="btn-close shadow-none" data-bs-dismiss="offcanvas" data-bs-target="#sidebarMenu"></button>
