@@ -176,7 +176,6 @@ header{
     border-color: #2b59ce !important; 
     background-color: #f8faff;
 }
-/* Style de la carte */
 .product-card {
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     border-radius: 20px !important;
@@ -188,7 +187,6 @@ header{
     box-shadow: 0 20px 40px rgba(0,0,0,0.08) !important;
 }
 
-/* Gestion de l'image */
 .img-container {
     height: 220px;
     border-radius: 20px 20px 0 0;
@@ -205,7 +203,6 @@ header{
     transform: scale(1.1);
 }
 
-/* Badge Catégorie */
 .badge-category {
     position: absolute;
     top: 15px;
@@ -234,3 +231,24 @@ header{
     box-shadow: 0 4px 12px rgba(43, 89, 206, 0.2);
 }
 
+
+@media (max-width: 991.98px) {
+    #sideBar {
+        display: none !important;
+    }
+    .flex-grow-1 {
+        margin-left: 0 !important;
+    }
+}
+
+#scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.transition-all {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-link:hover {
+    background-color: #f8f9fa !important;
+}
